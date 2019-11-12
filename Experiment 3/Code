@@ -1,0 +1,27 @@
+PUSH BUTTON SWITCH INTERFACE 
+SIMULATION CODE 
+void setup()
+{  int switchPin=8;
+  int bellPin=2;
+ pinMode(switchPin, INPUT);
+ pinMode(bellPin, OUTPUT);
+}
+
+void loop()
+{
+  int switchPin=8;
+  int bellPin=2;
+  int reading = digitalRead(switchPin);
+  
+  if(reading==HIGH)
+  {
+    digitalWrite (2, LOW);
+  }
+  else
+  {
+    digitalWrite (2, HIGH);
+    delay(500);
+ 
+  }
+}
+
