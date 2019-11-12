@@ -1,0 +1,15 @@
+Aim: Design an Automatic Night Lamp.
+Apparatus: Arduino, LDR, LED, Resistor, wires, Breadboard.
+Procedure:
+step1:
+take a arduino and breadboard first.
+step2:
+take 1 lcd and 2 resistors with a single light detecting(ldr).
+step3:
+now join them in a circuit to check the functioning of ldr with light
+step4:
+now check the brightness and change it slowly.
+step5:
+it works at range>500 it glow.
+Result:
+Automatic night lamp functioning was verified after uploading the program
